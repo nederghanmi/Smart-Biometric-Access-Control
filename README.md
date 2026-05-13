@@ -1,6 +1,6 @@
-# SBACS
+# Smart Biometric Access Control
 
-Smart Biometric Access Control System (SBACS) is a Python desktop app for biometric access control with:
+Smart Biometric Access Control is a Python desktop app for biometric access control with:
 
 - LBPH face recognition
 - dataset capture

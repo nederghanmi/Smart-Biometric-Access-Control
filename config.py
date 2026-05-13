@@ -12,7 +12,7 @@ LOG_DB_PATH = BASE_DIR / "logs.db"
 USERS_PATH = BASE_DIR / "utilisateurs.json"
 CONSENT_PATH = BASE_DIR / "rgpd_consent.json"
 CASCADE_PATH = Path(cv2.data.haarcascades) / "haarcascade_frontalface_default.xml"
-APP_TITLE = "Smart Biometric Access Control System"
+APP_TITLE = "Smart Biometric Access Control"
 
 
 @dataclass(frozen=True)
