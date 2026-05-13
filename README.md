@@ -1,10 +1,26 @@
 # Smart Biometric Access Control
 
+> Offline Python desktop app for face recognition, biometric access control, and local audit logging.
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8)
+![Tkinter](https://img.shields.io/badge/Tkinter-Desktop%20UI-1C7ED6)
+![SQLite](https://img.shields.io/badge/SQLite-Local%20Storage-003B57)
+
 Smart Biometric Access Control is a local Python desktop application for biometric identity verification and access monitoring. It combines face recognition, structured user management, and SQLite-based audit logging in a single offline-first system designed for demos, labs, and controlled environments.
 
 ## Overview
 
 The application captures and processes face images locally, trains an LBPH recognition model, and records access attempts with timestamps and confidence scores. User data, datasets, and logs remain on the machine instead of being sent to external services.
+
+## Highlights
+
+- Offline-first design with local storage only
+- Face recognition powered by OpenCV and LBPH
+- Access history stored in SQLite
+- User enrollment and deletion workflow
+- Modern dark-themed desktop interface
+- RGPD-style consent prompt for local compliance flow
 
 ## Features
 
@@ -46,6 +62,14 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+## Screenshots
+
+Add screenshots here once you capture the interface:
+
+- Main dashboard
+- Admin panel
+- Access log view
 
 ## Project Structure
 
