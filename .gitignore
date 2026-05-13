@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Runtime data and generated artifacts
+dataset/
+logs.db
+modele.yml
+rgpd_consent.json
+utilisateurs.json
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
